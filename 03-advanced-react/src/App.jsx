@@ -1,4 +1,4 @@
-import Starter from './tutorial/03-conditional-rendering/starter/06-toggle-challenge.jsx'
+import Starter from './tutorial/06-forms/starter/03-multiple-inputs.jsx'
 function App() {
   return (
     <div className="container">
