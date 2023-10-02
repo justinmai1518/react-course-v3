@@ -1,6 +1,9 @@
 import SingleQuestion from './SingleQuestion'
+import React from 'react'
 
 const Questions = ({ questions, activeId, toggleQuestion }) => {
+  //   console.log(questions, activeId, toggleQuestion)
+  console.log(activeId)
   return (
     <section className="container">
       <h1>Questions</h1>
@@ -11,10 +14,11 @@ const Questions = ({ questions, activeId, toggleQuestion }) => {
             {...question}
             activeId={activeId}
             toggleQuestion={toggleQuestion}
-          ></SingleQuestion>
+          />
         )
       })}
     </section>
   )
 }
+
 export default Questions
